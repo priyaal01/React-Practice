@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #111;
 }
 
 .nav{
@@ -24,4 +25,128 @@ body{
     list-style-type: none;
     cursor: pointer;
 }
+
+.Parent{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    gap: 20px;
+}
+
+.card{
+    width:300px;
+    height:350px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    margin-left:20px;
+    margin-top:20px;
+    padding: 5px;
+    
+    
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.card img{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.top button{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 2px 6px;
+    background-color: whitesmoke;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.middle{
+    padding: 16px;
+}
+.middle h3{
+    font-size: 13px;
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 6px;
+}
+.middle h3 span{
+    font-size:8px;
+    color: gray;
+}
+
+.middle h2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 6px;
+}
+
+.butto{
+    display:flex;
+    gap: 6px;
+}
+.butto button{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 2px 6px;
+    background-color: rgb(228, 225, 225);
+    color: #111;
+    border: none;
+    border-radius: 4px;
+}
+
+
+.bottom{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+    padding: 16px;
+    
+}
+
+.bottom h3{
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.bottom h3 span{
+    font-size: 12px;
+    color: gray;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
+.bottom button{
+    padding: 6px 14px;
+    border-radius: 5px;
+    background-color: #111;
+    color: #fff;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+
+
+
+
 
