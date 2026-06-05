@@ -1,18 +1,15 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Card from './components/Card'
+import Section from './components/Section1/Section'
+import Section2 from './components/Section2/Section2'
+import Navbar from './components/Section1/Navbar'
+
 
 const App = () => {
   return (
-    <>
-    <div className='Parent'>
-      <Card />
-      <Card />
-      <Card />
-      
-      
+    <div>
+      <Section/>
+      <Section2/>
     </div>
-    </>
   )
 }
 
