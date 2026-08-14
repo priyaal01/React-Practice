@@ -17,7 +17,7 @@ const Carousel = () => {
         const timer = setTimeout(() => {
             setImgIndex((imgIndex) => (imgIndex + 1) % data.length)
         }, 1000)
-        return ()=>{clearInterval(timer)}
+        return ()=>{clearTimeout(timer)}
     }, [imgIndex])
     return (
         <div className='flex justify-center mt-10'>
