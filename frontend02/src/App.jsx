@@ -13,7 +13,6 @@ const App = () => {
       <button onClick={()=>  setCount(count+2)}> jump by 2</button>
       <button onClick={() => setCount(0)}>reset</button>
     </div>
-    
   )
 }
 
