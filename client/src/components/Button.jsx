@@ -1,9 +1,14 @@
+// Make Reusable Button Component in React
+
 import React from 'react'
 
-const Button = () => {
+const Button = ({children,bgcolor="bg-black",textcolor="text-white",onClick}) => {
   return (
+
     <div>
-        <button className=' text-white py-2 px-3 rounded-lg m-2 cursor-pointer hover:bg-gray-400 bg-black'>Button</button>
+        <button className={`py-2 px-3 rounded-lg m-2 cursor-pointer hover:bg-gray-400 ${bgcolor} ${textcolor}`} onClick={onClick}>
+            {children}
+        </button>
     </div>
   )
 }
